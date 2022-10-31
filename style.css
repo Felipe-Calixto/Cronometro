@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+#conteiner {
+    text-align: center;
+    border: 2px solid white;
+    width: auto;
+    height: auto;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#cronometro {
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 30px; 
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    background-color:  rgba(0, 174, 255, 0.3);
+    color: white;
+}
+
+.bnt {
+    width: 100px;
+    height: 30px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+#start {
+    border: 2px solid green;
+    color: green;
+}
+
+#start:hover {
+    transition: .3s;
+    background-color: green;
+    color: white;
+}
+
+#pause {
+    border: 2px solid yellow;
+    color: yellow;
+}
+
+#pause:hover {
+    transition: .3s;
+    background-color: yellow;
+    color: white;
+}
+
+#restart {
+    border: 2px solid red;
+    color: red;
+}
+
+#restart:hover {
+    transition: .3s;
+    background-color: red;
+    color: white;
+}
